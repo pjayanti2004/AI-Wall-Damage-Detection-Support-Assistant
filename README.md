@@ -1,31 +1,28 @@
-# AI Wall Damage Detection System
+# AI Wall Damage Detection & Support Assistant
 
-An AI-assisted computer vision application that analyzes wall images to detect cracks, paint peeling, and structural damage.
+This project detects wall damage using computer vision and provides repair recommendations.
 
 ## Features
-- Upload wall damage images
-- Detect cracks using OpenCV
-- Highlight damaged areas
-- Calculate damage percentage
-- Predict severity level
-- Recommend technician
-- Estimate repair cost
+
+- Upload wall damage image
+- AI crack & paint peeling detection
+- Damage heatmap visualization
+- Damage percentage estimation
+- Technician recommendation
+- Repair cost estimation
+- Chat support assistant
+- Issue history tracking
 
 ## Technologies Used
+
 - Python
+- Streamlit
 - OpenCV
 - NumPy
-- Streamlit
-- PIL
+- Pillow
 
-## How It Works
-1. User uploads a wall image
-2. Image is processed using OpenCV
-3. Edges and contours are detected
-4. Damage areas are highlighted
-5. Damage percentage is calculated
-6. Severity and repair cost are predicted
+## How to Run
 
-## Run the Project
+```bash
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run streamlit_app/app.py
